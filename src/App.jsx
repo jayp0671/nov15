@@ -226,7 +226,7 @@ export default function App() {
         <section className="reveal" ref={detailsRef}>
           <div className="card glow">
             <h2>YAY! 🥂</h2>
-            <p>You just made my week. Here are the details—totally flexible:</p>
+            <p>You just made my week. Here are the details:</p>
             <ul className="details">
               <li><span>Date/Time</span>{new Date(EVENT_DATE_ISO).toLocaleString("en-US", { timeZone: "America/New_York" })}</li>
               <li><span>Location</span>{LOCATION}</li>
